@@ -1,6 +1,6 @@
 <!-- Create a form that includes a "input" element that gives a user dropdown to select only one of many options -->
 <!-- Only one seletion should be able to be selected -->
-<!-- Must use at least one "fieldsel" element -->
+<!-- Must use at least one "fieldset" element -->
 <!-- Contains labels -->
 
 <!DOCTYPE html>
@@ -11,7 +11,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    
+<body style="font-size: 25px;">
+    <fieldset>
+        <label for="Selection">What is your favorite color?</label>
+        <select name="color" id="color-Selection">
+            <option value="Green">Green</option>
+            <option value="Blue">Blue</option>
+            <option value="Red">Red</option>
+            <option value="Pink">Pink</option>
+            <option value="Purple">Purple</option>
+            <option value="Yellow">Yellow</option>
+            <option value="Orange">Orange</option>
+            <option value="etc">Etc</option>
+        </select>
+    </fieldset>
 </body>
 </html>
