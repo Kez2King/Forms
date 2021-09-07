@@ -1,0 +1,41 @@
+body{
+    background-color: black;
+    /* border: 2px black solid; */
+    height: 750px;
+    color: cornsilk;
+}
+header{
+    border-bottom: 5px yellowgreen dotted;
+    height: 25%;
+    /* float: left; */
+}
+h1{
+    color: white;
+    /* font-style: italic; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 75px;
+    float: left;
+}
+nav{
+    border: 5px cyan solid;
+    float: right;
+    height: 50px;
+    width: 300px;
+}
+main{
+    border-left: 5px navajowhite dotted;
+    height: 75%;
+    width: 75%;
+    float: right;
+}
+#sidebar{
+    /* border: 2px brown solid; */
+    /* float: right; */
+    height: 75%;
+    width: 25%;
+}
+footer{
+    clear: both;
+    border-top: 5px cyan dotted;
+    height: 25%;
+}
