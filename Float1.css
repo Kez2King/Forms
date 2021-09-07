@@ -1,0 +1,17 @@
+#grid{
+    border: 2px black solid;
+    height: 900px;
+    width: 900px;
+}
+.Boxes{
+    border: 2px black solid;
+    height: 32.89%;
+    width: 32.89%;
+    float: left;
+}
+.inner{
+    border: 2px black dotted;
+    height: 31.95%;
+    width: 31.95%;
+    float: left;
+}
