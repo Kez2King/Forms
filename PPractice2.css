@@ -1,0 +1,42 @@
+body{
+    /* border: solid black; */
+    margin: 0;
+    height: auto;
+    width: 100%;
+}
+header{
+    border-bottom: black solid;
+    height: 10%;
+    width: 100%;
+    /* position: fixed; */
+    background: linear-gradient(45deg,pink,yellow,orange);
+}
+.Test{
+    border: firebrick solid;
+    height: 820px;
+    width: 20%;
+}
+#sidebar{
+    border: black solid;
+    height: 500px;
+    width: 280px;
+}
+nav{
+    /* float: left; */
+    position: sticky;
+    border: black solid;
+    height: 45%;
+    width: 20%;
+}
+main{
+    /* float: right; */
+    border: black solid;
+    overflow: scroll;
+    width: 100%;
+    display: flex;
+}
+.content{
+    border-left: black dotted;
+    width: 80%;
+    height: 850px;
+}
