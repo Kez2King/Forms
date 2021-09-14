@@ -1,0 +1,12 @@
+#Board{
+    /* border: 2px solid teal; */
+    width: 165px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    /* column-gap: 0; */
+}
+.tiles{
+    border: 3px solid black;
+    height: 50px;
+    width: 50px;
+}
