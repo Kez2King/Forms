@@ -9,23 +9,33 @@
 
 // Create a funtion that gives a tip and bill amount
 // Bill Amount
-var bill = 100
-function tipAmount(tip){
-    start = 1;
-    while (start == 1 ){
-        if (tip == 20){
-            console.log("Good")
-        } else if (tip == 15){
-            console.log("Fair")
-        } else {
-            console.log("Bad")
-            start += 1;
-        }
-    // console.log(bill)
-    return tip
-    }
-}
-var userTip = tipAmount(15)
-var totalPrice = tipAmount(15) + bill
-console.log(userTip)
-console.log(totalPrice)
+// var bill = 100
+// function tipAmount(tip){
+//     start = 1;
+//     while (start == 1 ){
+//         if (tip == 20){
+//             console.log("Good")
+//         } else if (tip == 15){
+//             console.log("Fair")
+//         } else {
+//             console.log("Bad")
+//             start += 1;
+//         }
+//     // console.log(bill)
+//     return tip
+//     }
+// }
+// var userTip = tipAmount(15)
+// var totalPrice = tipAmount(15) + bill
+// console.log(userTip)
+// console.log(totalPrice)
+
+/*
+PRINT NUMBERS
+    1. Create a loop that ends at 10
+    2. Best to use FOR loops
+*/
+// for (let i = 0; i < 10; i++) {
+//     console.log(i)
+// }
+
