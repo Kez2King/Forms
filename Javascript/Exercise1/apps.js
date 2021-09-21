@@ -78,13 +78,13 @@ PRINT NUMBERS
 //     console.log(i)
 // }
 
-function printNumbers(start, end){
-    while (start <= end){
-        console.log(start)
-        start +=1   
-    }
-}
-printNumbers(1, 9)
+// function printNumbers(start, end){
+//     while (start <= end){
+//         console.log(start)
+//         start +=1   
+//     }
+// }
+// printNumbers(1, 9)
 
 /*
         Ceasar Cipher
@@ -107,3 +107,85 @@ printNumbers(1, 9)
 //     return newString
 // }
 // console.log(cipher("abc", 2))
+
+/**
+ * LEETSPEAK
+ * 
+ * [X] Write a function leetspeak which is given a string, 
+ * [X] Returns the leetspeak equivalent of the string.
+ * [] To convert text to its leetspeak version, make the following substitutions:
+    A => 4
+    E => 3
+    G => 6
+    I => 1
+    O => 0
+    S => 5
+    T => 7
+ */
+
+// function leetspeak(word){
+//     let currentCharacter = null;
+//     let newWord = new Array(word.length)
+
+//     //Counter           |        Condition     | Increment/ Decrement
+//     for (let counter = 0; counter < word.length; counter++){
+//         // Get access in each character
+//         // Check for match to be transformed
+//         currentCharacter = word[counter]
+//         switch (currentCharacter){
+//             case "a":
+//                 currentCharacter = 4
+//                 break
+//             case "e":
+//                 currentCharacter = 3
+//                 break
+//             case "g":
+//                 currentCharacter = 6
+//                 break
+//             case "i":
+//                 currentCharacter = 1
+//                 break
+//             case "o":
+//                 currentCharacter = 0
+//                 break;
+//             case "s":
+//                 currentCharacter = 5
+//                 break;
+//             case "t":
+//                 currentCharacter = 7
+//                 break;
+//             default:
+//         }
+//         newWord.push(currentCharacter)
+//     }
+//     return newWord.join("")
+// }
+// console.log(leetspeak("is a ghost"))
+
+/**
+ * Write a function positiveNumbers
+ * Gives an array of numbers 
+ * Returns a new array containing only the positive numbers within the given array
+ */
+// Create a function called positiveNumbers
+function positiveNumbers(values){
+    // Created a variable for the new string to be placed
+    newValues =[];
+    // Used a For loop to look at each individual number within the array
+    for (let index = 0; index < values.length; index++){
+        // All positive numbers get added to the new array
+        if (values[index] > 0) {
+            newValues.push(values[index]);
+        } 
+        // All negative numbers gets changed into positive numbers
+        // Using their absolute values
+        else if (values[index] < 0){
+            var abVal = Math.abs(values[index]);
+            newValues.push(abVal);
+        }
+    // Return both back to the new array
+    }
+    return newValues;
+};
+// Inserta an array of numbers
+console.log(positiveNumbers([1, -2, -3, 4, -5, 6, -18]));
