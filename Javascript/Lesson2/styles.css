@@ -1,0 +1,9 @@
+#myButton {
+    height: 100px;
+    width: 200px;
+}
+#myButton :hover{
+    transition: 0.01s;
+    background-color: purple;
+    color: white;
+}
