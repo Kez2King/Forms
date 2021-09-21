@@ -35,48 +35,56 @@
 
 // Write a function tipAmount
 // Gives the bill amount and the level of service
-const good = 0.2
-const fair = 0.15
-const bad = 0.1
-function tipAmount(bill, service){
-    if (service == "Good"){
-        tipG = (bill * good)
-        return "Your good tip is " + "$" + tipG + "."
-    } else if (service == "Fair"){
-        tipF = (bill * fair)
-        return "Your fair tip is " + "$" + tipF + "."
-    } else if (service == "Bad"){
-        tipB = (bill * bad)
-        return "Your bad tip is " + "$" + tipB + "."
-    }
-    return service
-}
+// const good = 0.2
+// const fair = 0.15
+// const bad = 0.1
+// function tipAmount(bill, service){
+//     if (service == "Good"){
+//         tipG = (bill * good)
+//         return "Your good tip is " + "$" + tipG + "."
+//     } else if (service == "Fair"){
+//         tipF = (bill * fair)
+//         return "Your fair tip is " + "$" + tipF + "."
+//     } else if (service == "Bad"){
+//         tipB = (bill * bad)
+//         return "Your bad tip is " + "$" + tipB + "."
+//     }
+//     return service
+// }
 
-function finalAmount(bill, service){
-    if (service == "Good"){
-        total = tipG + bill
-        return "Your total is " + "$" + total + "."
-    } else if (service == "Fair"){
-        total = tipF + bill
-        return "Your total is " + "$" + total + "."
-    } else if (service == "Bad"){
-        total = tipB + bill
-        return "Your total is " + "$" + total + "."
-    }
-    return service
-}
-console.log(tipAmount(55, "Bad") + finalAmount(55, "Bad"))
+// function finalAmount(bill, service){
+//     if (service == "Good"){
+//         total = tipG + bill
+//         return "Your total is " + "$" + total + "."
+//     } else if (service == "Fair"){
+//         total = tipF + bill
+//         return "Your total is " + "$" + total + "."
+//     } else if (service == "Bad"){
+//         total = tipB + bill
+//         return "Your total is " + "$" + total + "."
+//     }
+//     return service
+// }
+// console.log(tipAmount(55, "Bad") + finalAmount(55, "Bad"))
 
 
 
 /*
 PRINT NUMBERS
-    1. Create a loop that ends at 10
-    2. Best to use FOR loops
+    1. Create a function w/ 
+    2. Best to use WHILE or FOR loops
 */
 // for (let i = 0; i < 10; i++) {
 //     console.log(i)
 // }
+
+function printNumbers(start, end){
+    while (start <= end){
+        console.log(start)
+        start +=1   
+    }
+}
+printNumbers(1, 9)
 
 /*
         Ceasar Cipher
