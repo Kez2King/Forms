@@ -188,4 +188,4 @@ function positiveNumbers(values){
     return newValues;
 };
 // Inserta an array of numbers
-console.log(positiveNumbers([1, -2, -3, 4, -5, 6, -18]));
+console.log(positiveNumbers([1, -2, -3, 4, -5, 6, -7, -8, 9]));
