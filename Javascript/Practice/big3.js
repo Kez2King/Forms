@@ -5,22 +5,6 @@
  *      - Can return duplicates
  */
 
-
-// function big3(array){
-//     let top3 = []
-//     for(let i = 0; i < array.length; i++){
-//         if(array[i] < array[i+1]){
-//             array.splice()
-//         } else {
-//             top3.push(array[i])
-//             top3.sort(function(a, b){return a - b})
-//             console.log(top3)
-//         }
-//     }
-// }
-// let myArr = [141, 1, 17, -7, -17, -27, 18, 541, 8, 7, 7]
-// big3(myArr)
-
 function threeLargeNumbers(num){
     let num1 = null;
     let num2 = null;

@@ -1,21 +1,3 @@
-// function compile(string){
-//     let count = 1
-//     let tenthcount = 0
-//     for (i = 0; i < string.length; i++) {
-//         while(i < (string.length - 1) && string[i] == string[i+1]){
-//             if (count >= 9){
-//                 tenthcount ++
-//                 console.log((count + string[i]) + (tenthcount + string[i]))
-//             } else{
-//                 count ++
-//             }
-//         }
-//         console.log(count + string[i])
-//     }
-// }
-// let string = "AAAAAAAAAAAABBBCCCDEEE"
-// compile(string)
-
 // 1. make sure we can step through each letter - done
 // 2. make sure we can switch letters - done
 // 3. count the number of repenting values - done

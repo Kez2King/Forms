@@ -9,24 +9,6 @@
 // 3. Check for duplicates
 // 4. Count duplicates
 
-
-// function nonRepeat(string){
-//     let newString = []
-//     let count = 0
-//     for(let i = 0; i < string.length; i++) {
-//         for(let x = 0; x < string.length; x++){
-//             if(string[i] == string[x]){
-//                 newString.push(string[i])
-//                 console.log(newString)
-//             }
-//         }
-//     }
-// }
-
-// let string = "abcdcaf"
-// nonRepeat(string)
-
-
 function nonRepeat(string){
     let characterCount = {};
     let currentCharacter = null;
